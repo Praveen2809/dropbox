@@ -1,4 +1,4 @@
-package com.project.dropbox;
+package com.project.dropbox.config;
 
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;

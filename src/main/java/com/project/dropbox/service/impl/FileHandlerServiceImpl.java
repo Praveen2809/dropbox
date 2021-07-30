@@ -1,6 +1,6 @@
 package com.project.dropbox.service.impl;
 
-import com.project.dropbox.AppConfig;
+import com.project.dropbox.config.AppConfig;
 import com.project.dropbox.dto.FileResponseDto;
 import com.project.dropbox.exception.FileNotPresentException;
 import com.project.dropbox.exception.FileStorageException;
