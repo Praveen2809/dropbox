@@ -30,4 +30,6 @@ public class FileDetails{
     private Long fileSize;
 
     private String checkSum;
+
+    private Boolean deleted = false;
 }
