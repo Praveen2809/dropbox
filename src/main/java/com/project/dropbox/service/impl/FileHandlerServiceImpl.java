@@ -1,7 +1,6 @@
 package com.project.dropbox.service.impl;
 
 import com.project.dropbox.config.AppConfig;
-import com.project.dropbox.dto.FileDownloadDto;
 import com.project.dropbox.dto.FileResponseDto;
 import com.project.dropbox.exception.FileNotPresentException;
 import com.project.dropbox.exception.FileStorageException;
@@ -10,7 +9,6 @@ import com.project.dropbox.model.FileDetails;
 import com.project.dropbox.service.CommonFileService;
 import com.project.dropbox.service.FileDetailsService;
 import com.project.dropbox.service.FileHandlerService;
-import org.apache.tomcat.util.http.fileupload.FileUpload;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.UrlResource;

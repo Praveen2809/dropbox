@@ -1,6 +1,5 @@
 package com.project.dropbox.controller;
 
-import com.project.dropbox.dto.FileDownloadDto;
 import com.project.dropbox.dto.FileResponseDto;
 import com.project.dropbox.service.FileHandlerService;
 import org.springframework.beans.factory.annotation.Autowired;
